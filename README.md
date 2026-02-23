@@ -1,18 +1,8 @@
-# 🎨 Vivaldi Dark Minimal Theme
+# 🎨 Vivaldi Dark Minimal Theme for Linux
 
 A modern, sleek, and dark-themed customization for **Vivaldi Browser** on Linux. This theme transforms your browsing experience with a clean, minimal interface featuring smooth gradients, rounded corners, and professional typography.
 
 ![Theme Screenshot](screenshot.png)
-
-## Features
-
-- **Dark gradient backgrounds** with elegant shadows and blur effects
-- **Geist Mono font** throughout the UI for consistent typography
-- **Rounded webview corners** with customizable window borders
-- **Vertical tab bar optimized** with transparent workspace buttons
-- **Linux-specific styling** for title bar and window controls
-- **Clean panel system** with blur backgrounds and transparency
-- **Tiled & Mosaic support** for split-screen layouts
 
 ## Installation
 

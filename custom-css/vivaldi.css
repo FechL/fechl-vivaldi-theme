@@ -3,7 +3,6 @@
    A modern, dark-themed customization for Vivaldi browser on Linux
    =========================================================================== */
 
-
 /* ===========================================================================
    SECTION 1: CSS CUSTOM PROPERTIES (VARIABLES)
    =========================================================================== */
@@ -34,7 +33,16 @@
 
 
 /* ===========================================================================
-   SECTION 2: TYPOGRAPHY
+   SECTION 2: CUSTOMIZE TOOLBAR
+   =========================================================================== */
+
+.page-zoom-controls button[aria-label="Reset Zoom"] {
+    display: none !important;
+}
+
+
+/* ===========================================================================
+   SECTION 3: TYPOGRAPHY
    Global font settings for all UI elements
    =========================================================================== */
 #browser,
@@ -53,9 +61,21 @@ textarea {
     font-weight: 600 !important;
 }
 
+div.mainbar {
+    /* padding: 0px !important; */
+    border: none !important;
+    background: linear-gradient(to bottom, #202020, #101010, #0d0d0d) !important;
+    padding-top: 0px !important;
+}
+
+#main>div.mainbar>div:nth-child(1)>div>div.UrlBar-AddressField.urlfield-anchor.button-textonly.above {
+    height: 25px !important;
+    font-size: 12px !important;
+}
+
 
 /* ===========================================================================
-   SECTION 3: HIDDEN ELEMENTS
+   SECTION 4: HIDDEN ELEMENTS
    Elements that should not be displayed
    =========================================================================== */
 
@@ -77,7 +97,7 @@ textarea {
 
 
 /* ===========================================================================
-   SECTION 4: HEADER & TOOLBAR STYLING
+   SECTION 5: HEADER & TOOLBAR STYLING
    Dark gradient backgrounds for main UI elements
    =========================================================================== */
 
@@ -114,7 +134,7 @@ textarea {
 
 
 /* ===========================================================================
-   SECTION 5: MODAL DIALOGS
+   SECTION 6: MODAL DIALOGS
    =========================================================================== */
 .modal-wrapper {
     border-radius: 10px !important;
@@ -122,7 +142,7 @@ textarea {
 
 
 /* ===========================================================================
-   SECTION 6: TAB BAR BUTTONS
+   SECTION 7: TAB BAR BUTTONS
    Button styling for vertical tab layouts
    =========================================================================== */
 
@@ -136,9 +156,17 @@ textarea {
     opacity: 0.8;
 }
 
+#tabs-container .resize {
+    max-height: 100% !important;
+}
+
+#tabs-container.left:has(.tab-strip.overflow),
+#tabs-container.right:has(.tab-strip.overflow) {
+    padding-right: 6px !important;
+}
 
 /* ===========================================================================
-   SECTION 7: TOP HEADER VISIBILITY
+   SECTION 8: TOP HEADER VISIBILITY
    Control header visibility based on layout configuration
    =========================================================================== */
 
@@ -160,7 +188,7 @@ textarea {
 
 
 /* ===========================================================================
-   SECTION 8: LINUX-SPECIFIC HEADER STYLING
+   SECTION 9: LINUX-SPECIFIC HEADER STYLING
    =========================================================================== */
 
 /* Linux header dimensions and background */
@@ -192,7 +220,7 @@ textarea {
 
 
 /* ===========================================================================
-   SECTION 9: VIVALDI LOGO BUTTON (WINDOW CONTROLS)
+   SECTION 10: VIVALDI LOGO BUTTON (WINDOW CONTROLS)
    =========================================================================== */
 
 /* Vivaldi button styling for non-titlebar mode */
@@ -222,7 +250,7 @@ textarea {
 
 
 /* ===========================================================================
-   SECTION 10: WINDOW BUTTON GROUP (MINIMIZE, MAXIMIZE, CLOSE)
+   SECTION 11: WINDOW BUTTON GROUP (MINIMIZE, MAXIMIZE, CLOSE)
    Linux-specific window control buttons
    =========================================================================== */
 
@@ -255,7 +283,7 @@ textarea {
 
 
 /* ===========================================================================
-   SECTION 11: WORKSPACE BUTTON
+   SECTION 12: WORKSPACE BUTTON
    Styling for workspace switcher button
    =========================================================================== */
 
@@ -294,7 +322,7 @@ textarea {
 
 
 /* ===========================================================================
-   SECTION 12: VERTICAL TAB BAR (LEFT & RIGHT)
+   SECTION 13: VERTICAL TAB BAR (LEFT & RIGHT)
    Styling for side tab layouts
    =========================================================================== */
 
@@ -306,7 +334,7 @@ textarea {
 
 
 /* ===========================================================================
-   SECTION 13: SIDE PANEL
+   SECTION 14: SIDE PANEL
    Panel container and panel group styling
    =========================================================================== */
 
@@ -360,7 +388,7 @@ textarea {
 
 
 /* ===========================================================================
-   SECTION 14: WEBVIEW CONTAINER MARGINS
+   SECTION 15: WEBVIEW CONTAINER MARGINS
    Spacing around the main web content area
    =========================================================================== */
 
@@ -397,7 +425,7 @@ textarea {
 
 
 /* ===========================================================================
-   SECTION 15: ROUNDED WEBVIEW & SHADOWS
+   SECTION 16: ROUNDED WEBVIEW & SHADOWS
    Border radius and shadow effects for web content area
    =========================================================================== */
 
@@ -430,7 +458,7 @@ textarea {
 
 
 /* ===========================================================================
-   SECTION 16: TILED & MOSAIC TAB VIEWS
+   SECTION 17: TILED & MOSAIC TAB VIEWS
    Styling for split-screen tab layouts
    =========================================================================== */
 
@@ -453,7 +481,7 @@ textarea {
 
 
 /* ===========================================================================
-   SECTION 17: START PAGE
+   SECTION 18: START PAGE
    Speed dial / start page navigation styling
    =========================================================================== */
 .startpage .startpage-navigation {
