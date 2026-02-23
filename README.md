@@ -20,11 +20,12 @@ A modern, sleek, and dark-themed customization for **Vivaldi Browser** on Linux.
    ```
 2. In Vivaldi Settings → Appearance → Custom UI Modifications, point to the `vivaldi-theme/custom-css` folder
 
-**Import Theme**
+**Import FechL Theme**
 
 1. Extract `theme/theme.zip`
 2. Import the theme settings in Vivaldi Settings → Themes → Import Theme
 
 **Install Geist Mono Font**
 
-For the best experience, install the **Geist Mono** font at [Google Fonts](https://fonts.google.com/specimen/Geist+Mono).
+- Install from the included font folder [font/Geist_Mono](/font/Geist_Mono/) 
+- Or, download and install from [Google Fonts](https://fonts.google.com/specimen/Geist+Mono)
