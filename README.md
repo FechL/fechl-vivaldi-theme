@@ -16,13 +16,13 @@ A modern, sleek, and dark-themed customization for **Vivaldi Browser** on Linux.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/vivaldi-theme.git
+   git clone https://github.com/FechL/fechl-vivaldi-theme.git
    ```
-2. In Vivaldi Settings → Appearance → Custom UI Modifications, point to the `vivaldi-theme/custom-css` folder
+2. In Vivaldi Settings → Appearance → Custom UI Modifications, point to the `fechl-vivaldi-theme/custom-css` folder
 
 **Import FechL Theme**
 
-1. Extract `theme/theme.zip`
+1. Extract `theme/theme.zip` or download on [Vivaldi Theme](https://themes.vivaldi.net/themes/RqZvdK4yl9o)
 2. Import the theme settings in Vivaldi Settings → Themes → Import Theme
 
 **Install Geist Mono Font**
