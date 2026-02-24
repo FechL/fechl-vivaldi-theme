@@ -1,11 +1,23 @@
 /* ===========================================================================
-   VIVALDI BROWSER CUSTOM CSS THEME
+   VIVALDI BROWSER CUSTOM CSS THEME by @FechL (github.com/FechL)
    A modern, dark-themed customization for Vivaldi browser on Linux
    =========================================================================== */
 
 /* ===========================================================================
    SECTION 1: CSS CUSTOM PROPERTIES (VARIABLES)
    =========================================================================== */
+
+/* Gradient Background Color (default: all commented) */
+.inner {
+    /* monochrome */
+    /* background: linear-gradient(to top, #050505, #323235 80%, #49494b) !important; */
+    /* dark-red */
+    /* background: linear-gradient(to top, #050505, #3f2525 75%, #482020) !important; */
+    /* dark-blue */
+    /* background: linear-gradient(to top, #050505, #080e29 80%, #0e1c3a) !important; */
+}
+
+/* Theme */
 :root {
     /* Window Layout */
     --window-border: 6px;
